@@ -1,0 +1,47 @@
+{
+  "name": "@YOUR_NPM_USERNAME/reviewroom",
+  "version": "1.0.0",
+  "description": "Review room toolkit for AI agents and humans in team chat (built for Switch): security scan, isolated test runs, human-approved gated merges, decision log.",
+  "bin": {
+    "reviewroom": "bin/reviewroom.js"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "review-room.template.yaml",
+    "README.md",
+    "LICENSE",
+    "GETTING-STARTED.md",
+    "review-agents.template.yaml"
+  ],
+  "scripts": {
+    "seed": "node scripts/seed-demo.js demo-repo",
+    "test": "node --test test/reviewroom.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "switch",
+    "ai-agents",
+    "code-review",
+    "pull-request",
+    "merge-gate",
+    "security-scan",
+    "cli"
+  ],
+  "author": "YOUR NAME",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/reviewroom.git"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/reviewroom#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/reviewroom/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
