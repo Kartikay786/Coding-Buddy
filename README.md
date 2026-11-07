@@ -6,7 +6,7 @@ Built for the *Flip the Switch* hackathon (WeMakeDevs x DevTools Academy x Switc
 
 - Demo video: `[ADD LINK]`
 
-- Author: `[YOUR NAME]` (solo)
+- Author: `Kumar Kartikay & Khushboo Prajapati`
 
 ## The problem
 
@@ -69,7 +69,7 @@ New to this? Read **GETTING-STARTED.md** first.
 Prerequisites: Node 18+, git, Switch Console, and an agent CLI signed in (OpenCode has free models; Claude Code and Codex also work). A chat app is needed for the room: Telegram needs only a free bot from @BotFather; the built-in chat needs Docker.
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/reviewroom && cd reviewroom
+git clone https://github.com/Kartikay786/Coding-Buddy && cd reviewroom
 npm test                          # 7 tests should pass
 npm install -g .                  # puts `reviewroom` on your PATH
 reviewroom demo ./demo-repo       # builds a demo repo with two PRs

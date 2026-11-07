@@ -1,5 +1,5 @@
 {
-  "name": "@YOUR_NPM_USERNAME/reviewroom",
+  "name": "@kuserboy/reviewroom",
   "version": "1.0.0",
   "description": "Review room toolkit for AI agents and humans in team chat (built for Switch): security scan, isolated test runs, human-approved gated merges, decision log.",
   "bin": {
@@ -28,15 +28,15 @@
     "security-scan",
     "cli"
   ],
-  "author": "YOUR NAME",
+  "author": "Kumar Kartikay",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/reviewroom.git"
+    "url": "git+https://github.com/Kartikay786/Coding-Buddy"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/reviewroom#readme",
+  "homepage": "https://github.com/Kartikay786/Coding-Buddy#readme",
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/reviewroom/issues"
+    "url": "https://github.com/Kartikay786/Coding-Buddy/issues"
   },
   "engines": {
     "node": ">=18"
